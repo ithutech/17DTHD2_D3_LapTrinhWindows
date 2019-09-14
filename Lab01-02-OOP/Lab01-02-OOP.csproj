@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E697CA81-9DF2-4F94-8F51-D2C7B62D6BFD}</ProjectGuid>
+    <ProjectGuid>{FE444A05-9942-40BB-BBF2-23E5ADE68F17}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_17DTHD2_D3_LapTrinhWIndows</RootNamespace>
-    <AssemblyName>17DTHD2_D3_LapTrinhWIndows</AssemblyName>
+    <RootNamespace>Lab01_02_OOP</RootNamespace>
+    <AssemblyName>Lab01-02-OOP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GiangVien.cs" />
+    <Compile Include="Nguoi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SinhVien.cs" />
     <Compile Include="Tester.cs" />
