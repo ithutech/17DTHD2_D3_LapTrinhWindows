@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17DTHD2_D3_LapTrinhWIndows"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01-02-OOP", "Lab01-02-OOP\Lab01-02-OOP.csproj", "{FE444A05-9942-40BB-BBF2-23E5ADE68F17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLabWindowsForm", "DemoLabWindowsForm\DemoLabWindowsForm.csproj", "{9E115F62-7C99-4D4C-8CAF-01F6778B2262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FE444A05-9942-40BB-BBF2-23E5ADE68F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE444A05-9942-40BB-BBF2-23E5ADE68F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE444A05-9942-40BB-BBF2-23E5ADE68F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E115F62-7C99-4D4C-8CAF-01F6778B2262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E115F62-7C99-4D4C-8CAF-01F6778B2262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E115F62-7C99-4D4C-8CAF-01F6778B2262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E115F62-7C99-4D4C-8CAF-01F6778B2262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
