@@ -53,6 +53,8 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.chkDonHoaDon = new System.Windows.Forms.CheckBox();
             this.totGiaGhe = new System.Windows.Forms.ToolTip(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtKhachHang = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,8 +112,9 @@
             // 
             // txtThanhTien
             // 
+            this.txtThanhTien.Enabled = false;
             this.txtThanhTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThanhTien.Location = new System.Drawing.Point(352, 376);
+            this.txtThanhTien.Location = new System.Drawing.Point(352, 448);
             this.txtThanhTien.Name = "txtThanhTien";
             this.txtThanhTien.Size = new System.Drawing.Size(322, 41);
             this.txtThanhTien.TabIndex = 7;
@@ -122,7 +125,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(118, 385);
+            this.label4.Location = new System.Drawing.Point(118, 457);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(158, 29);
             this.label4.TabIndex = 3;
@@ -274,17 +277,17 @@
             // 
             // btnChon
             // 
-            this.btnChon.Location = new System.Drawing.Point(125, 438);
+            this.btnChon.Location = new System.Drawing.Point(125, 514);
             this.btnChon.Name = "btnChon";
             this.btnChon.Size = new System.Drawing.Size(158, 47);
             this.btnChon.TabIndex = 11;
-            this.btnChon.Text = "Chọn";
+            this.btnChon.Text = "Đặt Vé";
             this.btnChon.UseVisualStyleBackColor = true;
             this.btnChon.Click += new System.EventHandler(this.BtnChon_Click);
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(317, 438);
+            this.btnHuy.Location = new System.Drawing.Point(317, 514);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(158, 47);
             this.btnHuy.TabIndex = 11;
@@ -293,12 +296,13 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(516, 438);
+            this.btnThoat.Location = new System.Drawing.Point(516, 514);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(158, 47);
             this.btnThoat.TabIndex = 11;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.BtnThoat_Click);
             // 
             // chkDonHoaDon
             // 
@@ -312,11 +316,31 @@
             this.chkDonHoaDon.Text = "Dồn Hóa Đơn";
             this.chkDonHoaDon.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(118, 398);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(169, 29);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "KHÁCH HÀNG";
+            // 
+            // txtKhachHang
+            // 
+            this.txtKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtKhachHang.Location = new System.Drawing.Point(352, 389);
+            this.txtKhachHang.Name = "txtKhachHang";
+            this.txtKhachHang.Size = new System.Drawing.Size(322, 41);
+            this.txtKhachHang.TabIndex = 7;
+            // 
             // frmDatVeXemPhim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 537);
+            this.ClientSize = new System.Drawing.Size(804, 589);
             this.Controls.Add(this.chkDonHoaDon);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -336,6 +360,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnTru);
             this.Controls.Add(this.btnCong);
+            this.Controls.Add(this.txtKhachHang);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtThanhTien);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
@@ -373,5 +399,7 @@
         private System.Windows.Forms.Button btnChon;
         private System.Windows.Forms.CheckBox chkDonHoaDon;
         private System.Windows.Forms.ToolTip totGiaGhe;
+        private System.Windows.Forms.TextBox txtKhachHang;
+        private System.Windows.Forms.Label label2;
     }
 }
