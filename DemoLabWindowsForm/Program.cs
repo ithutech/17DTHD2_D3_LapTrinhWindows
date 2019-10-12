@@ -16,7 +16,7 @@ namespace DemoLabWindowsForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDatVeXemPhim());
+            Application.Run(new frmMain());
         }
     }
 }

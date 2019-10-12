@@ -18,5 +18,6 @@ namespace DemoLabWindowsForm.Entities
         public DbSet<HangGhe> HangGhes { get; set; }
         public DbSet<HoaDon> HoaDons { get; set; }
         public DbSet<ChiTietHoaDon> ChiTietHoaDons { get; set; }
+        public DbSet<TaiKhoan> TaiKhoans { get; set; }
     }
 }

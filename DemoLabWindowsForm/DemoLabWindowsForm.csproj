@@ -68,11 +68,30 @@
     <Compile Include="Entities\HangGhe.cs" />
     <Compile Include="Entities\HoaDon.cs" />
     <Compile Include="Entities\KhachHang.cs" />
+    <Compile Include="Entities\TaiKhoan.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaoTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaoTaiKhoan.Designer.cs">
+      <DependentUpon>frmTaoTaiKhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201910050238579_TaoMoiDatabase.cs" />
     <Compile Include="Migrations\201910050238579_TaoMoiDatabase.designer.cs">
@@ -82,20 +101,37 @@
     <Compile Include="Migrations\201910050247020_BoSungQuanHeBangGhe_ChiTiet.designer.cs">
       <DependentUpon>201910050247020_BoSungQuanHeBangGhe_ChiTiet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910120325385_ThemBangTaiKhoan.cs" />
+    <Compile Include="Migrations\201910120325385_ThemBangTaiKhoan.designer.cs">
+      <DependentUpon>201910120325385_ThemBangTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Ultils.cs" />
     <EmbeddedResource Include="DatVeXemPhim.resx">
       <DependentUpon>DatVeXemPhim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaoTaiKhoan.resx">
+      <DependentUpon>frmTaoTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910050238579_TaoMoiDatabase.resx">
       <DependentUpon>201910050238579_TaoMoiDatabase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910050247020_BoSungQuanHeBangGhe_ChiTiet.resx">
       <DependentUpon>201910050247020_BoSungQuanHeBangGhe_ChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910120325385_ThemBangTaiKhoan.resx">
+      <DependentUpon>201910120325385_ThemBangTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
